@@ -219,7 +219,7 @@
             <sch:tableName>LobAgreementRole</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3000</sch:seqIndex>
-            <sch:format>采购入库(%s)</sch:format>
+            <sch:format>AgreementRoles(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
