@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://aiaf.com/schemas" name="LobSpecManagement">
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="LobSpecManagement">
     <sch:name>LobSpecManagement</sch:name>
     <sch:tableType>System</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:archeType>NORMAL</sch:archeType>
+    <sch:parentTypeName>NA</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
@@ -228,4 +229,5 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules/>
 </sch:ObjectType>
