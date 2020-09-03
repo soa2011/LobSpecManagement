@@ -35,7 +35,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>AgreementId</sch:refTargetType>
+            <sch:refTargetType>LobAgreement</sch:refTargetType>
             <sch:label>LobId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>

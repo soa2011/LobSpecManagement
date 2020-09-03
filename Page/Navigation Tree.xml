@@ -216,7 +216,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobPurchaseReceiving</sch:tableName>
+            <sch:tableName>LobAgreementRole</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3000</sch:seqIndex>
             <sch:format>采购入库(%s)</sch:format>
@@ -227,7 +227,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobPurchaseReceiving</sch:tableName>
+            <sch:tableName>LobAgreementRole</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>3000</sch:seqIndex>
             <sch:format>%s %s</sch:format>
@@ -238,7 +238,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobPurchaseReceivingLine</sch:tableName>
+            <sch:tableName>LobRoleProperty</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2600</sch:seqIndex>
             <sch:format>采购入库明细(%s)</sch:format>
@@ -249,7 +249,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobPurchaseReceivingLine</sch:tableName>
+            <sch:tableName>LobRoleProperty</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>2600</sch:seqIndex>
             <sch:format>%s %s</sch:format>
