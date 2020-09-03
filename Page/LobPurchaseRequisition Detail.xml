@@ -383,13 +383,13 @@
     <sch:buttons>
         <sch:BmfPageButton>
             <sch:seqNumber>2400</sch:seqNumber>
-            <sch:buttonName>CreateScmOrder</sch:buttonName>
+            <sch:buttonName>ExecuteRequest</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
             <sch:description></sch:description>
             <sch:showButton>true</sch:showButton>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfButton isRef="true">CreateScmOrder</sch:bmfButton>
+            <sch:bmfButton isRef="true">ExecuteRequest</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
 </sch:PageDefinition>

@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="LobScmCustomer Summary">
-    <sch:name>LobScmCustomer Summary</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="LobAgreementRequest Detail">
+    <sch:name>LobAgreementRequest Detail</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Summary</sch:pageType>
+    <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>400</sch:seqNumber>
-    <sch:tableName>LobScmCustomer</sch:tableName>
+    <sch:seqNumber>500</sch:seqNumber>
+    <sch:tableName>LobAgreementRequest</sch:tableName>
     <sch:quoteDisplay>false</sch:quoteDisplay>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
-    <sch:defaultSort>Code ASC</sch:defaultSort>
+    <sch:defaultSort></sch:defaultSort>
     <sch:defaultDir></sch:defaultDir>
     <sch:labelOrientation></sch:labelOrientation>
     <sch:relatedRule></sch:relatedRule>
@@ -25,17 +25,17 @@
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">LobScmCustomer</sch:objectType>
+    <sch:objectType isRef="true">LobAgreementRequest</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>LobId</sch:name>
+            <sch:name>AgreementId</sch:name>
             <sch:seqNumber>10</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType></sch:refTargetType>
+            <sch:refTargetType>AgreementId</sch:refTargetType>
             <sch:label>LobId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -50,10 +50,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -83,9 +83,9 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType></sch:refTargetType>
+            <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>ClientId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -100,10 +100,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -129,11 +129,11 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Code</sch:name>
-            <sch:seqNumber>50</sch:seqNumber>
+            <sch:seqNumber>40</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Code</sch:label>
@@ -150,10 +150,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -179,16 +179,16 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
-            <sch:seqNumber>70</sch:seqNumber>
+            <sch:seqNumber>50</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Select</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Status</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName></sch:domainName>
+            <sch:domainName>RecordStatus</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -200,10 +200,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -226,17 +226,18 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:bmfDomain isRef="true">RecordStatus</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>Name</sch:name>
-            <sch:seqNumber>100</sch:seqNumber>
+            <sch:name>RequestSpecId</sch:name>
+            <sch:seqNumber>60</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Name</sch:label>
+            <sch:label>RequestSpecId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
@@ -250,10 +251,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType>Equal</sch:filterType>
+            <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -283,7 +284,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Date</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>EffectiveDate</sch:label>
@@ -300,8 +301,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -333,7 +334,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Date</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ExpirationDate</sch:label>
@@ -351,7 +352,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -379,11 +380,11 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Duration</sch:name>
-            <sch:seqNumber>420</sch:seqNumber>
+            <sch:seqNumber>350</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Duration</sch:label>
@@ -400,8 +401,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -429,11 +430,11 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>WorkflowId</sch:name>
-            <sch:seqNumber>1110</sch:seqNumber>
+            <sch:seqNumber>1100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>WorkflowId</sch:label>
@@ -450,8 +451,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -479,11 +480,11 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Description</sch:name>
-            <sch:seqNumber>1110</sch:seqNumber>
+            <sch:seqNumber>1200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:fieldType>TextArea</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Description</sch:label>
@@ -500,8 +501,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>0</sch:colSpan>
-            <sch:sortable>true</sch:sortable>
+            <sch:colSpan>1</sch:colSpan>
+            <sch:sortable>false</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -530,5 +531,16 @@
     </sch:fields>
     <sch:variables/>
     <sch:treeNodes/>
-    <sch:buttons/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2400</sch:seqNumber>
+            <sch:buttonName>ExecuteRequest</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">ExecuteRequest</sch:bmfButton>
+        </sch:BmfPageButton>
+    </sch:buttons>
 </sch:PageDefinition>

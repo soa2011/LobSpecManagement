@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="CreateScmOrder">
+<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="ExecuteRequest">
     <sch:seqIndex>0</sch:seqIndex>
-    <sch:name>CreateScmOrder</sch:name>
+    <sch:name>ExecuteRequest</sch:name>
     <sch:businessName></sch:businessName>
-    <sch:label>CreateScmOrder</sch:label>
+    <sch:label>ExecuteRequest</sch:label>
     <sch:logicType>Groovy</sch:logicType>
-    <sch:methodBody>purchaseManager.createScmOrder(request,context)</sch:methodBody>
+    <sch:methodBody>lobSpecManager.executeRequest(request,context)</sch:methodBody>
     <sch:processDefinition></sch:processDefinition>
     <sch:newStatus></sch:newStatus>
     <sch:versionMode>New Version</sch:versionMode>

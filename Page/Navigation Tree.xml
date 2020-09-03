@@ -106,10 +106,10 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobScmCustomer</sch:tableName>
+            <sch:tableName>LobAgreementRequest</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>700</sch:seqIndex>
-            <sch:format>LobScmCustomer(%s)</sch:format>
+            <sch:format>LobAgreementRequest(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
@@ -117,11 +117,11 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>LobScmCustomer</sch:tableName>
+            <sch:tableName>LobAgreementRequest</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>700</sch:seqIndex>
-            <sch:format>%s %s</sch:format>
-            <sch:columns>Code,Name</sch:columns>
+            <sch:format>%s</sch:format>
+            <sch:columns>Code</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
